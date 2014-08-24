@@ -3,6 +3,14 @@ body {
   margin:0px;
   padding:0px;
 }
+a{
+  color:inherit;
+  font-size:inherit;
+  text-decoration:none;
+}
+a:hover {
+  text-decoration:underline;
+}
 p{
   display:inline;
   font: 12px Arial,sans-serif;
@@ -30,6 +38,7 @@ footer {
   bottom:0px;
   padding:5px;
   background-color: #eee;
+  border-top: 2px solid #ccc;
 }
 
 header p {
