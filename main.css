@@ -1,0 +1,97 @@
+body {
+	background-color: white;
+  margin:0px;
+  padding:0px;
+}
+p{
+  display:inline;
+  font: 12px Arial,sans-serif;
+}
+
+div {
+	position:relative;
+	margin:auto;
+}
+
+header {
+  margin: 5px;
+  padding: 5px;
+  text-align:right;
+  height: 40px;
+}
+#helper {
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+}
+footer {
+  position:absolute;
+  width: 100%;
+  bottom:0px;
+  padding:5px;
+  background-color: #eee;
+}
+
+header p {
+  padding: 0px 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer p {
+  padding: 0px 8px;
+  color: #555;
+}
+
+footer div{
+  padding: 5px;
+}
+
+#share {
+  margin-right: 0px;
+  background-color: rgba(200,200,200,0.5);
+  padding: 5px;
+  border-radius: 2px 2px 0px 2px;
+}
+#tri {
+  width: 0; 
+	height: 0; 
+	border-top: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 6px solid rgba(200,200,200,0.5);
+}
+
+#spacer {
+  height: 150px;
+}
+
+#logo {
+  width:269px;
+  height: 95px;
+	background-image: url( https://www.google.com.au/images/srpr/logo11w.png);
+  background-size: 269px 95px;
+}
+
+#searchbox{
+  text-align: center;
+  margin-top: 20px;
+}
+
+#searchbar{
+  display: block;
+  width: 529px;
+  height: 29px;
+  margin:auto;
+}
+#searchbox button{
+  margin: 15px 8px;
+  padding: 8px 16px;
+  font: bold 12px Arial,sans-serif;
+}
+
+#left {
+  float:left;
+}
+#right {
+  float:right;
+}
